@@ -1,4 +1,6 @@
-body {}
+body {
+    text-align: center;
+}
 
 .navbar-brand {
     max-width: 200px;
