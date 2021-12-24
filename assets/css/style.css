@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -31,3 +31,16 @@ body {
     max-width: 200px;
     max-height: 50px;
 }
+
+@media (max-width: 540px) {
+    .centrar {
+        text-align: center!important;
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center!important;
+    }
+    i.fab {
+        font-size: 1.25rem;
+    }
