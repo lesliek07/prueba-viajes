@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-brand {
@@ -12,6 +14,20 @@ body {
     max-height: 50%;
 }
 
+.carousel-item img {
+    max-height: 700px;
+}
+
 .card-img-top {
     max-height: 170px!important;
+}
+
+.brand h5 {
+    max-width: 70%;
+    margin-bottom: 0!important;
+}
+
+.brand img {
+    max-width: 200px;
+    max-height: 50px;
 }
