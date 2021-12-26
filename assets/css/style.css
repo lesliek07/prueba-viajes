@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
-
-/* html {
-    scroll-behavior: smooth;
-} */
-
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+p {
+    text-align: justify;
+}
+
+
+/* navbar */
 
 .navbar-brand {
     max-width: 200px;
@@ -19,13 +21,22 @@ body {
     max-height: 50%;
 }
 
+
+/* carousel */
+
 .carousel-item img {
     max-height: 700px;
 }
 
+
+/* cards */
+
 .card-img-top {
     max-height: 170px!important;
 }
+
+
+/* footer */
 
 .brand h5 {
     max-width: 70%;
@@ -37,12 +48,19 @@ body {
     max-height: 50px;
 }
 
+footer,
 a {
     text-decoration: none;
     color: white;
 }
 
+footer,
+a:hover {
+    color: #90DBF4;
+}
+
 @media (max-width: 540px) {
+    /* footer */
     .centrar {
         text-align: center!important;
     }
