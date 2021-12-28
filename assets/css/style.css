@@ -10,6 +10,16 @@ p {
 }
 
 
+/* Alineacion vertical de la barra de navegación*/
+
+#quienes-somos,
+#destacados,
+#contacto {
+    padding-top: 1.5rem;
+    margin-top: -1.5rem;
+}
+
+
 /* navbar */
 
 .navbar-brand {
@@ -20,6 +30,16 @@ p {
 .navbar-brand img {
     max-width: 15%;
     max-height: 50%;
+}
+
+.nav a:hover {
+    color: #90DBF4!important;
+}
+
+.nav-link.active,
+.show>.nav-link {
+    color: #8EECF5!important;
+    background: rgba(0, 0, 0, 0);
 }
 
 
