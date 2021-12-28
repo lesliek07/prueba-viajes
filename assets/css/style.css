@@ -50,6 +50,15 @@ p {
 }
 
 
+/*Quienes somos*/
+
+.bgcolor:hover,
+i.fas:hover {
+    background-color: #028090;
+    color: #F0F3BD;
+}
+
+
 /* cards */
 
 .card-img-top {
