@@ -9,6 +9,16 @@ p {
 }
 
 
+/* Alineacion vertical de la barra de navegación*/
+
+#quienes-somos,
+#destacados,
+#contacto {
+    padding-top: 3em;
+    margin-top: -3em;
+}
+
+
 /* navbar */
 
 .navbar-brand {
@@ -60,6 +70,22 @@ a:hover {
 }
 
 @media (max-width: 540px) {
+    /* Alineacion vertical de la barra de navegación*/
+    #quienes-somos,
+    #destacados,
+    #contacto {
+        padding-top: 14em;
+        margin-top: -14em;
+    }
+    /* navbar */
+    .navbar-brand {
+        max-width: 150px;
+        max-height: 50px;
+    }
+    .navbar-brand img {
+        max-width: 17%;
+        max-height: 50%;
+    }
     /* footer */
     .centrar {
         text-align: center!important;
