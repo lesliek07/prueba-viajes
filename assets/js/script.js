@@ -1,5 +1,5 @@
 // código para smooth scroll
-const links = document.querySelectorAll(".page-header ul a");
+const links = document.querySelectorAll(".page-header a");
 
 for (const link of links) {
     link.addEventListener("click", clickHandler);
@@ -15,6 +15,9 @@ function clickHandler(e) {
         behavior: "smooth"
     });
 }
+
+
+
 // tooltips boostrap 5.1
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {

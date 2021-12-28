@@ -2,20 +2,11 @@
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 p {
     text-align: justify;
-}
-
-
-/* Alineacion vertical de la barra de navegación*/
-
-#quienes-somos,
-#destacados,
-#contacto {
-    padding-top: 3rem;
-    margin-top: -3rem;
 }
 
 
@@ -88,8 +79,8 @@ a:hover {
     #quienes-somos,
     #destacados,
     #contacto {
-        padding-top: 11rem;
-        margin-top: -11rem;
+        padding-top: 7rem;
+        margin-top: -7rem;
     }
     /* navbar */
     .navbar-brand {
