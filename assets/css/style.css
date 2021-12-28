@@ -14,8 +14,8 @@ p {
 #quienes-somos,
 #destacados,
 #contacto {
-    padding-top: 3em;
-    margin-top: -3em;
+    padding-top: 3rem;
+    margin-top: -3rem;
 }
 
 
@@ -43,6 +43,13 @@ p {
 
 .card-img-top {
     max-height: 170px!important;
+}
+
+.badge {
+    font-size: 0.7rem;
+    font-weight: 400;
+    position: relative;
+    top: -0.5rem;
 }
 
 
@@ -81,8 +88,8 @@ a:hover {
     #quienes-somos,
     #destacados,
     #contacto {
-        padding-top: 11em;
-        margin-top: -11em;
+        padding-top: 11rem;
+        margin-top: -11rem;
     }
     /* navbar */
     .navbar-brand {
