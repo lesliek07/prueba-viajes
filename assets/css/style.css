@@ -69,13 +69,20 @@ a:hover {
     color: #90DBF4;
 }
 
+@media (min-width: 1024px) and (max-width: 1024px) {
+    /* cards */
+    .card-img-top {
+        max-height: 143px!important;
+    }
+}
+
 @media (max-width: 540px) {
     /* Alineacion vertical de la barra de navegación*/
     #quienes-somos,
     #destacados,
     #contacto {
-        padding-top: 14em;
-        margin-top: -14em;
+        padding-top: 11em;
+        margin-top: -11em;
     }
     /* navbar */
     .navbar-brand {
@@ -84,7 +91,7 @@ a:hover {
     }
     .navbar-brand img {
         max-width: 17%;
-        max-height: 50%;
+        max-height: 70%;
     }
     /* footer */
     .centrar {
